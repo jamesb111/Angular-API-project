@@ -1,0 +1,129 @@
+header {
+    background-image: url("../../assets/ballet-crop.jpg");
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 35px;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+}
+
+.navLink {
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* margin-top: 30px; */
+}
+
+.eventDiv {
+    border: 1px solid white;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 340px;
+    width: 390px;
+    position: relative;
+}
+
+.eventDiv, .eventImg {
+    border-radius: 10px;
+}
+
+.eventImg {
+    height: 250px;
+    width: 390px;
+}
+
+p {
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 18px; 
+    margin: 0;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    z-index: 3;
+}
+
+i, .ticket {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    color: gray;
+}
+
+i.favRed {
+    color: red;
+}
+
+button {
+    border-radius: 5px;
+    border: .5px solid lightgray;
+    background-color: white;
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.moreDetails {
+    border-radius: 10px;
+    font-family: 'Metrophobic', sans-serif;
+    background-color: rgba(67, 97, 228, 0.863);
+    color: white;
+    height: 342px;
+    width: 392px;
+    margin: 50px;
+    position: absolute;
+    left: -50px;
+    top: -65px;
+    z-index: 1;
+}
+.venue {
+    border-radius: 0;
+}
